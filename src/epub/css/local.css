@@ -2,40 +2,83 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 b {
-  font-variant: small-caps;
-  font-weight: normal;
+	font-variant: small-caps;
+	font-weight: normal;
 }
 
-footer {
-  margin-top: 1em;
-  text-align: right;
-}
+/* footer {
+	margin-top: 1em;
+	text-align: right;
+} */
 
 .name {
-  white-space: nowrap;
+	white-space: nowrap;
+}
+
+.sign {
+	font-variant: small-caps;
+	text-align: center;
 }
 
 .signature {
-  font-variant: small-caps;
+	font-variant: small-caps;
 }
 
 [epub|type~="dedication"] p {
-  margin: auto;
-  margin-top: 3em;
-  text-align: center;
-  text-indent: 0;
-  max-width: 75%;
+	margin: auto;
+	margin-top: 3em;
+	text-align: center;
+	text-indent: 0;
+	max-width: 75%;
 }
 
-blockquote[epub|type~="z3998:letter"] p[epub|type~="z3998:valediction"] {
-  margin-top: 1em;
+/* Letter */
+
+blockquote[epub|type~="z3998:letter"] header p {
+	text-align: center;
+}
+
+blockquote[epub|type~="z3998:letter"] header p[epub|type~="z3998:sender"] {
+	font-variant: small-caps;
+}
+
+blockquote[epub|type~="z3998:letter"] header .location {
+	font-variant: small-caps;
 }
 
 blockquote[epub|type~="z3998:letter"] header p[epub|type~="se:letter.dateline"] {
-  font-style: italic;
+	font-style: italic;
 }
 
-blockquote[epub|type~="z3998:letter"] header p {
-  text-align: center;
+blockquote[epub|type~="z3998:letter"] p[epub|type~="z3998:valediction"] {
+	margin-top: 1em;
 }
 
+blockquote[epub|type~="z3998:letter"] footer {
+	text-align: right;
+}
+
+blockquote[epub|type~="z3998:letter"] footer .signature {
+	font-variant: small-caps;
+}
+
+.calling-card {
+	margin: auto;
+	width: max-content;
+}
+
+.calling-card header p,
+.calling-card footer {
+	margin-bottom: .5em;
+	margin-top: .5em;
+	text-align: center;
+	text-indent: 0;
+}
+
+.calling-card footer p {
+	margin: .5em;
+}
+
+.calling-card-signoff {
+	text-align: right;
+}
