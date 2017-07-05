@@ -6,11 +6,6 @@ b {
 	font-weight: normal;
 }
 
-/* footer {
-	margin-top: 1em;
-	text-align: right;
-} */
-
 .name {
 	white-space: nowrap;
 }
@@ -62,21 +57,27 @@ blockquote[epub|type~="z3998:letter"] footer .signature {
 	font-variant: small-caps;
 }
 
+/* Calling Card formatting */
+
 .calling-card {
 	margin: auto;
 	width: max-content;
 }
 
+.calling-card > *{
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
 .calling-card header p,
 .calling-card footer {
-	margin-bottom: .5em;
-	margin-top: .5em;
 	text-align: center;
-	text-indent: 0;
 }
 
 .calling-card footer p {
-	margin: .5em;
+	margin-bottom: .25em;
+	margin-top: .25em;
+	text-indent: 0;
 }
 
 .calling-card-signoff {
