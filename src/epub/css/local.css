@@ -19,6 +19,11 @@ b {
 	font-variant: small-caps;
 }
 
+.cipher {
+	margin: 1em auto;
+	text-align: center;
+}
+
 [epub|type~="dedication"] p {
 	margin: auto;
 	margin-top: 3em;
@@ -80,6 +85,6 @@ blockquote[epub|type~="z3998:letter"] footer {
 	text-align: right;
 }
 
-.note footer[epub|type~="z3998:valediction"] {
+.receipt footer[epub|type~="z3998:valediction"] {
 	text-align: right;
 }
