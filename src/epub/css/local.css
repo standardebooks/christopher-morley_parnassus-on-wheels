@@ -27,10 +27,6 @@ footer {
   max-width: 75%;
 }
 
-blockquote[epub|type~="z3998:letter"] p {
-  text-indent: 0;
-}
-
 blockquote[epub|type~="z3998:letter"] p[epub|type~="z3998:valediction"] {
   margin-top: 1em;
 }
