@@ -20,6 +20,7 @@ b {
 }
 
 .cipher {
+	border-collapse: collapse;
 	margin: 1em auto;
 	text-align: center;
 }
