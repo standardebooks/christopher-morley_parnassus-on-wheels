@@ -53,10 +53,6 @@ blockquote[epub|type~="z3998:letter"] footer {
 	text-align: right;
 }
 
-blockquote[epub|type~="z3998:letter"] footer .signature {
-	font-variant: small-caps;
-}
-
 /* Calling Card formatting */
 
 .calling-card {
@@ -81,5 +77,9 @@ blockquote[epub|type~="z3998:letter"] footer .signature {
 }
 
 .calling-card-signoff {
+	text-align: right;
+}
+
+.note footer[epub|type~="z3998:valediction"] {
 	text-align: right;
 }
