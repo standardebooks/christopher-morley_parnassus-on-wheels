@@ -104,4 +104,3 @@ blockquote[epub|type~="z3998:letter"] footer {
 p[epub|type~="z3998:song"] span:nth-child(even) {
 	text-indent: 1em;
 }
-
