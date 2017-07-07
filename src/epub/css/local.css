@@ -113,3 +113,8 @@ p[epub|type~="z3998:song"] span:nth-child(even) {
 .journal-excerpt i {
 	font-style: normal;
 }
+
+.newspaper-clipping {
+	font-variant: small-caps;
+	text-align: center;
+}
