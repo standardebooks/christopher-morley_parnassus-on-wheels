@@ -105,10 +105,11 @@ p[epub|type~="z3998:song"] span:nth-child(even) {
 	text-indent: 1em;
 }
 
-.journal-excerpt {
+.journal-excerpt p {
 	font-style: italic;
 }
 
-.journal-exceprt em {
-	font-style: normal !important;
+.journal-excerpt > p > em,
+.journal-excerpt i {
+	font-style: normal;
 }
