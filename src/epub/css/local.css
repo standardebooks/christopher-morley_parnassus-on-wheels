@@ -19,6 +19,12 @@ b {
 	font-variant: small-caps;
 }
 
+.cipher {
+	border-collapse: collapse;
+	margin: 1em auto;
+	text-align: center;
+}
+
 [epub|type~="dedication"] p {
 	margin: auto;
 	margin-top: 3em;
@@ -53,10 +59,6 @@ blockquote[epub|type~="z3998:letter"] footer {
 	text-align: right;
 }
 
-blockquote[epub|type~="z3998:letter"] footer .signature {
-	font-variant: small-caps;
-}
-
 /* Calling Card formatting */
 
 .calling-card {
@@ -82,4 +84,23 @@ blockquote[epub|type~="z3998:letter"] footer .signature {
 
 .calling-card-signoff {
 	text-align: right;
+}
+
+.receipt footer[epub|type~="z3998:valediction"] {
+	text-align: right;
+}
+
+[epub|type~="z3998:song"] {
+	font-style: italic;
+	margin: 1em auto;
+	text-indent: 0;
+	width: max-content;
+}
+
+[epub|type~="z3998:song"] span {
+	display: block;
+}
+
+p[epub|type~="z3998:song"] span:nth-child(even) {
+	text-indent: 1em;
 }
