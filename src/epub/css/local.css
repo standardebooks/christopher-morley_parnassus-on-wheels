@@ -33,6 +33,30 @@ b {
 	max-width: 75%;
 }
 
+section[epub|type~="z3998:letter"] header p {
+	text-align: center;
+}
+
+section[epub|type~="z3998:letter"] header p[epub|type~="z3998:sender"] {
+	font-variant: small-caps;
+}
+
+section[epub|type~="z3998:letter"] header .location {
+	font-variant: small-caps;
+}
+
+section[epub|type~="z3998:letter"] header p[epub|type~="se:letter.dateline"] {
+	font-style: italic;
+}
+
+section[epub|type~="z3998:letter"] p[epub|type~="z3998:valediction"] {
+	margin-top: 1em;
+}
+
+section[epub|type~="z3998:letter"] footer {
+	text-align: right;
+}
+
 /* Letter */
 
 blockquote[epub|type~="z3998:letter"] header p {
