@@ -19,27 +19,27 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Parnassus on Wheels</dc:title>
 		<meta property="file-as" refines="#title">SORT</meta>
-		<dc:subject id="subject-1">SUBJECT1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT2</dc:subject>
+		<dc:subject id="subject-1">Booksellers and bookselling - Fiction</dc:subject>
+		<dc:subject id="subject-2">Brooklyn (New York, N.Y.) - Fiction</dc:subject>
 		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
 		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
 			LONGDESCRIPTION
 		]]></meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
-		<dc:language>LANG</dc:language>
+		<dc:language>en-GB</dc:language>
 		<dc:source>LINK</dc:source>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">WIKILINK</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Parnassus_on_Wheels</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/christopher-morley_parnassus-on-wheels</meta>
 		<dc:creator id="author">Christopher Morley</dc:creator>
-		<meta property="file-as" refines="#author">SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">FULLNAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">WIKILINK</meta>
+		<meta property="file-as" refines="#author">Morley, Christopher</meta>
+		<meta property="se:name.person.full-name" refines="#author">Christopher Morley</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Christopher_Morley</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">NACOAFLINK</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">CONTRIB1</dc:contributor>
