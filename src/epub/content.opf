@@ -18,12 +18,14 @@
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Parnassus on Wheels</dc:title>
-		<meta property="file-as" refines="#title">SORT</meta>
-		<dc:subject id="subject-1">Booksellers and bookselling - Fiction</dc:subject>
-		<dc:subject id="subject-2">Brooklyn (New York, N.Y.) - Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
-		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
+		<meta property="file-as" refines="#title">Parnassus on Wheels</meta>
+		<dc:subject id="subject-1">Booksellers and bookselling -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Brooklyn (New York, N.Y.) -- Fiction</dc:subject>
+		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/5311</meta>
+		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/5311</meta>
 		<meta property="se:subject">Fiction</meta>
+
+		<!-- TODO: Short and long description -->
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
@@ -31,7 +33,8 @@
 		]]></meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
-		<dc:source>LINK</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/5311</dc:source>
+		<dc:source>https://books.google.com/books?id=dJeZAAAAIAAJ</dc:source>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Parnassus_on_Wheels</meta>
@@ -40,26 +43,21 @@
 		<meta property="file-as" refines="#author">Morley, Christopher</meta>
 		<meta property="se:name.person.full-name" refines="#author">Christopher Morley</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Christopher_Morley</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">NACOAFLINK</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50006133.html</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="translator">CONTRIB1</dc:contributor>
-		<meta property="file-as" refines="#translator">CONTRIB1SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">WIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">NACOAFLINK</meta>
-		<meta property="display-seq" refines="#translator">1</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+
+		<!-- TODO: Artist info -->
 		<dc:contributor id="artist">COVERARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">WIKILINK</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">NACOAFLINK</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">LINK</meta>
+		<dc:contributor id="transcriber-1">Andrew Sly</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Sly, Andrew</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">Isaac Halvorson</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Halvorson, Isaac</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://hisaac.net</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
