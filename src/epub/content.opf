@@ -24,12 +24,10 @@
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/5311</meta>
 		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/5311</meta>
 		<meta property="se:subject">Fiction</meta>
-
-		<!-- TODO: Short and long description -->
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">39-year-old Helen McGill⁠—disgruntled with her life tending to her brother and his farm⁠—becomes the unlikely owner of a traveling bookseller’s wagon, and travels across the New England countryside spreading love and the joy of reading.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			LONGDESCRIPTION
+			Parnassus on Wheels is Christopher Morley’s first novel, and the first of two written from a woman’s perspective. In the book, Roger Mifflin arrives at the McGill farm in his Parnassus, a large horse-drawn van that he uses to travel across the New England countryside selling books. He’s eager to sell the business, and is looking for someone to take over the noble cause of spreading great literature to the common man. Helen McGill is at first turned off by Mr. Mifflin, but decides on a whim that an escape from her dreadful farm⁠—and her insufferable brother Andrew⁠—is just what she needs. She buys the Parnassus, and begins an adventure she’ll not soon forget.
 		]]></meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
@@ -44,12 +42,10 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Christopher_Morley</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50006133</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-
-		<!-- TODO: Artist info -->
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">WIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">NACOAFLINK</meta>
+		<dc:contributor id="artist">Camille Pissarro</dc:contributor>
+		<meta property="file-as" refines="#artist">Pissarro, Camille</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Camille_Pissarro</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50010995.html</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Andrew Sly</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Sly, Andrew</meta>
