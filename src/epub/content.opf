@@ -41,9 +41,8 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/christopher-morley_parnassus-on-wheels</meta>
 		<dc:creator id="author">Christopher Morley</dc:creator>
 		<meta property="file-as" refines="#author">Morley, Christopher</meta>
-		<meta property="se:name.person.full-name" refines="#author">Christopher Morley</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Christopher_Morley</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50006133.html</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50006133</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 
 		<!-- TODO: Artist info -->
