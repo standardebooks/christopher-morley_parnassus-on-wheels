@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="cc: http://creativecommons.org/ns, se: http://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/christopher-morley/parnassus-on-wheels</dc:identifier>
@@ -26,9 +26,9 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">39-year-old Helen McGill⁠—disgruntled with her life tending to her brother and his farm⁠—becomes the unlikely owner of a traveling bookseller’s wagon, and travels across the New England countryside spreading love and the joy of reading.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
+		<meta id="long-description" property="se:long-description" refines="#description">
 			Parnassus on Wheels is Christopher Morley’s first novel, and the first of two written from a woman’s perspective. In the book, Roger Mifflin arrives at the McGill farm in his Parnassus, a large horse-drawn van that he uses to travel across the New England countryside selling books. He’s eager to sell the business, and is looking for someone to take over the noble cause of spreading great literature to the common man. Helen McGill is at first turned off by Mr. Mifflin, but decides on a whim that an escape from her dreadful farm⁠—and her insufferable brother Andrew⁠—is just what she needs. She buys the Parnassus, and begins an adventure she’ll not soon forget.
-		]]></meta>
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5311</dc:source>
