@@ -1,31 +1,38 @@
-@charset "UTF-8";
+@charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-b {
+b{
 	font-variant: small-caps;
 	font-weight: normal;
 }
 
-.name {
+.book-title{
+	text-align: center;
+	font-variant: small-caps;
+	text-indent: 0;
+	margin: 1em auto;
+}
+
+abbr.name{
 	white-space: nowrap;
 }
 
-.sign {
+.sign{
 	font-variant: small-caps;
 	text-align: center;
 }
 
-.signature {
+.signature{
 	font-variant: small-caps;
 }
 
-.cipher {
+.cipher{
 	border-collapse: collapse;
 	margin: 1em auto;
 	text-align: center;
 }
 
-[epub|type~="dedication"] p {
+[epub|type~="dedication"] p{
 	margin: auto;
 	margin-top: 3em;
 	text-align: center;
@@ -33,141 +40,113 @@ b {
 	max-width: 75%;
 }
 
-section[epub|type~="z3998:letter"] header p {
-	text-align: center;
-}
-
-section[epub|type~="z3998:letter"] header p[epub|type~="z3998:sender"] {
-	font-variant: small-caps;
-}
-
-section[epub|type~="z3998:letter"] header .location {
-	font-variant: small-caps;
-}
-
-section[epub|type~="z3998:letter"] header p[epub|type~="se:letter.dateline"] {
-	font-style: italic;
-}
-
-section[epub|type~="z3998:letter"] p[epub|type~="z3998:valediction"] {
-	margin-top: 1em;
-}
-
-section[epub|type~="z3998:letter"] footer {
-	text-align: right;
-}
-
 /* Letter */
 
-blockquote[epub|type~="z3998:letter"] header p {
+blockquote[epub|type~="z3998:letter"] header p{
 	text-align: center;
 }
 
-blockquote[epub|type~="z3998:letter"] header p[epub|type~="z3998:sender"] {
+blockquote[epub|type~="z3998:letter"] header p[epub|type~="z3998:sender"]{
 	font-variant: small-caps;
 }
 
-blockquote[epub|type~="z3998:letter"] header .location {
+blockquote[epub|type~="z3998:letter"] header .location{
 	font-variant: small-caps;
 }
 
-blockquote[epub|type~="z3998:letter"] header p[epub|type~="se:letter.dateline"] {
+blockquote[epub|type~="z3998:letter"] header p[epub|type~="se:letter.dateline"]{
 	font-style: italic;
 }
 
-blockquote[epub|type~="z3998:letter"] p[epub|type~="z3998:valediction"] {
-	margin-top: 1em;
-}
-
-blockquote[epub|type~="z3998:letter"] footer {
+blockquote[epub|type~="z3998:letter"] footer{
 	text-align: right;
 }
 
 /* Calling Card formatting */
 
-.calling-card {
+.calling-card{
 	margin: auto;
 	width: max-content;
 }
 
-.calling-card > * {
+.calling-card > *{
 	margin-bottom: 1em;
 	margin-top: 1em;
 }
 
 .calling-card header p,
-.calling-card footer {
+.calling-card footer{
 	text-align: center;
 }
 
-.calling-card footer p {
+.calling-card footer p{
 	margin-bottom: .25em;
 	margin-top: .25em;
 	text-indent: 0;
 }
 
-.calling-card-signoff {
+.calling-card-signoff{
 	text-align: right;
 }
 
-.receipt footer[epub|type~="z3998:valediction"] {
+.receipt footer[epub|type~="z3998:valediction"]{
 	text-align: right;
 }
 
-[epub|type~="z3998:song"] {
+[epub|type~="z3998:song"]{
 	font-style: italic;
 	margin: 1em auto;
 	text-indent: 0;
 	width: max-content;
 }
 
-[epub|type~="z3998:song"] span {
+[epub|type~="z3998:song"] span{
 	display: block;
 }
 
-p[epub|type~="z3998:song"] span:nth-child(even) {
+p[epub|type~="z3998:song"] span:nth-child(even){
 	text-indent: 1em;
 }
 
-.journal-excerpt p {
+.journal-excerpt p{
 	font-style: italic;
 }
 
 .journal-excerpt > p > em,
-.journal-excerpt i {
+.journal-excerpt i{
 	font-style: normal;
 }
 
-.newspaper-clipping {
+.newspaper-clipping{
 	font-variant: small-caps;
 	text-align: center;
 }
 
-.hymn {
+.hymn{
 	font-style: italic;
 }
 
-.hymn-title {
+.hymn-title{
 	margin-bottom: 1em;
 	margin-top: 1em;
 	text-align: center;
 }
 
-.governers-calling-card {
+.governers-calling-card{
 	margin: 1em auto;
 	text-align: center;
 	width: max-content;
 }
 
-.governers-calling-card > * {
+.governers-calling-card > *{
 	text-indent: 0;
 }
 
-.governers-calling-card > .signature {
+.governers-calling-card > .signature{
 	margin-bottom: 1em;
 	margin-top: 1em;
 }
 
-.governers-calling-card-location {
+.governers-calling-card-location{
 	text-align: right;
 }
