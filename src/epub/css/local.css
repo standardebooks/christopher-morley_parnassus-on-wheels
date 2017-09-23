@@ -65,8 +65,7 @@ blockquote[epub|type~="z3998:letter"] footer{
 /* Calling Card formatting */
 
 .calling-card{
-	margin: auto;
-	width: max-content;
+	text-align: center;
 }
 
 .calling-card > *{
@@ -74,19 +73,10 @@ blockquote[epub|type~="z3998:letter"] footer{
 	margin-top: 1em;
 }
 
-.calling-card header p,
-.calling-card footer{
-	text-align: center;
-}
-
 .calling-card footer p{
 	margin-bottom: .25em;
 	margin-top: .25em;
 	text-indent: 0;
-}
-
-.calling-card-signoff{
-	text-align: right;
 }
 
 .receipt footer[epub|type~="z3998:valediction"]{
@@ -148,5 +138,5 @@ p[epub|type~="z3998:song"] span:nth-child(even){
 }
 
 .governers-calling-card-location{
-	text-align: right;
+	text-indent: 1em;
 }
