@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="cc: http://creativecommons.org/ns, se: http://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/christopher-morley/parnassus-on-wheels</dc:identifier>
 		<dc:date>2017-09-23T04:26:41Z</dc:date>
@@ -27,7 +27,7 @@
 		<dc:description id="description">39-year-old Helen McGill⁠—disgruntled with her life tending to her brother and his farm⁠—becomes the unlikely owner of a traveling bookseller’s wagon, and travels across the New England countryside spreading love and the joy of reading.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			Parnassus on Wheels is Christopher Morley’s first novel, and the first of two written from a woman’s perspective. In the book, Roger Mifflin arrives at the McGill farm in his Parnassus, a large horse-drawn van that he uses to travel across the New England countryside selling books. He’s eager to sell the business, and is looking for someone to take over the noble cause of spreading great literature to the common man. Helen McGill is at first turned off by Mr. Mifflin, but decides on a whim that an escape from her dreadful farm⁠—and her insufferable brother Andrew⁠—is just what she needs. She buys the Parnassus, and begins an adventure she’ll not soon forget.
+			&lt;i&gt;Parnassus on Wheels&lt;/i&gt; is Christopher Morley’s first novel, and the first of two written from a woman’s perspective, the second being this book’s sequel, &lt;i&gt;The Haunted Bookshop&lt;/i&gt;. The book was inspired by a novel by David Grayson (pseudonym of Ray Stannard Baker) called &lt;i&gt;The Friendly Road&lt;/i&gt;, and is prefaced by a letter to Grayson from Morley. The word “Parnassus” from the title refers to “Mount Parnassus”, the home of the Muses in Greek mythology. The protaganist of the book is 39-year-old Helen McGill who lives on a farm owned by her brother Andrew. The book’s Parnassus is a large, horse-drawn van owned by Roger Mifflin, out of which he buys and sells books while traveling around the New England countryside. Mifflin arrives at the McGill farm, looking to sell the business to someone interested in the noble cause of spreading literature to the common man. Hellen is at first turned off by Mr. Mifflin, but decides on a whim that an escape from her dreadful farm⁠—and her insufferable brother Andrew⁠—is just what she needs. She buys the Parnassus, and embarks on exactly the type of adventure she had hoped for.
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
