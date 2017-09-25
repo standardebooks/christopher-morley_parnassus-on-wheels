@@ -90,12 +90,9 @@ blockquote[epub|type~="z3998:letter"] footer{
 	width: max-content;
 }
 
-[epub|type~="z3998:song"] span{
-	display: block;
-}
-
-p[epub|type~="z3998:song"] span:nth-child(even){
-	text-indent: 1em;
+.i1{
+	text-indent: -1em;
+	padding-left: 2em;
 }
 
 .journal-excerpt p{
@@ -112,11 +109,11 @@ p[epub|type~="z3998:song"] span:nth-child(even){
 	text-align: center;
 }
 
-.hymn{
+[epub|type~="z3998:hymn"]{
 	font-style: italic;
 }
 
-.hymn-title{
+[epub|type~="z3998:hymn"] header p{
 	margin-bottom: 1em;
 	margin-top: 1em;
 	text-align: center;
@@ -132,11 +129,7 @@ p[epub|type~="z3998:song"] span:nth-child(even){
 	text-indent: 0;
 }
 
-.governers-calling-card > .signature{
+.governers-calling-card p:first-child{
 	margin-bottom: 1em;
 	margin-top: 1em;
-}
-
-.governers-calling-card-location{
-	text-indent: 1em;
 }
