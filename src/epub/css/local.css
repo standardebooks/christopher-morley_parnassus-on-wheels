@@ -7,10 +7,10 @@ b{
 }
 
 .book-title{
-	text-align: center;
 	font-variant: small-caps;
-	text-indent: 0;
 	margin: 1em auto;
+	text-align: center;
+	text-indent: 0;
 }
 
 abbr.name{
@@ -35,12 +35,10 @@ abbr.name{
 [epub|type~="dedication"] p{
 	margin: auto;
 	margin-top: 3em;
+	max-width: 75%;
 	text-align: center;
 	text-indent: 0;
-	max-width: 75%;
 }
-
-/* Letter */
 
 blockquote[epub|type~="z3998:letter"] header p{
 	text-align: center;
@@ -74,8 +72,6 @@ blockquote[epub|type~="z3998:letter"] p[epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
 
-/* Calling Card formatting */
-
 .calling-card{
 	text-align: center;
 }
@@ -103,13 +99,8 @@ blockquote[epub|type~="z3998:letter"] p[epub|type~="z3998:salutation"] + p{
 }
 
 .i1{
-	text-indent: -1em;
 	padding-left: 2em;
-}
-
-.newspaper-clipping{
-	font-variant: small-caps;
-	text-align: center;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:hymn"]{
@@ -119,6 +110,11 @@ blockquote[epub|type~="z3998:letter"] p[epub|type~="z3998:salutation"] + p{
 [epub|type~="z3998:hymn"] header p{
 	margin-bottom: 1em;
 	margin-top: 1em;
+	text-align: center;
+}
+
+.newspaper-clipping{
+	font-variant: small-caps;
 	text-align: center;
 }
 
