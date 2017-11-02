@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/christopher-morley/parnassus-on-wheels</dc:identifier>
 		<dc:date>2017-11-02T21:43:32Z</dc:date>
-		<meta property="dcterms:modified">2017-11-02T21:43:32Z</meta>
-		<meta property="se:revision-number">1</meta>
+		<meta property="dcterms:modified">2017-11-02T23:12:30Z</meta>
+		<meta property="se:revision-number">2</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -28,7 +28,7 @@
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Parnassus on Wheels&lt;/i&gt; is Christopher Morley’s first novel, and the first of two written from a woman’s perspective, the second being &lt;i&gt;The Haunted Bookshop&lt;/i&gt;, this book’s sequel. &lt;i&gt;Parnassus on Wheels&lt;/i&gt; was inspired by a novel by David Grayson (pseudonym of Ray Stannard Baker) called &lt;i&gt;The Friendly Road&lt;/i&gt;, and is prefaced by a letter to Grayson from Morley. The word “Parnassus” from the title refers to “Mount Parnassus,” the home of the Muses in Greek mythology.&lt;/p&gt;
-			&lt;p&gt;The protaganist is 39-year-old Helen McGill, who lives on a farm owned by her brother Andrew. The book’s Parnassus is a large, horse-drawn van owned by Roger Mifflin, out of which he buys and sells books while traveling around the New England countryside. Mifflin arrives at the McGill farm, looking to sell the business to someone interested in the noble cause of spreading literature to the common man. Hellen is at first turned off by Mr. Mifflin, but decides on a whim that an escape from her dreadful farm⁠—and her insufferable brother Andrew⁠—is just what she needs. She buys the Parnassus, and embarks on exactly the type of adventure she had hoped for.&lt;/p&gt;
+			&lt;p&gt;The protagonist is 39-year-old Helen McGill, who lives on a farm owned by her brother Andrew. The book’s Parnassus is a large, horse-drawn van owned by Roger Mifflin, out of which he buys and sells books while traveling around the New England countryside. Mifflin arrives at the McGill farm, looking to sell the business to someone interested in the noble cause of spreading literature to the common man. Helen is at first turned off by Mr. Mifflin, but decides on a whim that an escape from her dreadful farm⁠—and her insufferable brother Andrew⁠—is just what she needs. She buys the Parnassus, and embarks on exactly the type of adventure she had hoped for.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
