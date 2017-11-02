@@ -56,16 +56,13 @@ blockquote[epub|type~="z3998:letter"] header p[epub|type~="se:letter.dateline"]{
 	font-style: italic;
 }
 
-blockquote[epub|type~="z3998:letter"] footer{
+footer{
 	margin-top: 1em;
+	text-align: right;
 }
 
 blockquote[epub|type~="z3998:letter"] .signature{
 	text-align: right;
-}
-
-blockquote[epub|type~="z3998:letter"] p[epub|type~="z3998:salutation"]{
-	margin-bottom: 1em;
 }
 
 blockquote[epub|type~="z3998:letter"] p[epub|type~="z3998:salutation"] + p{
