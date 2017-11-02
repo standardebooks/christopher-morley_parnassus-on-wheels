@@ -71,33 +71,47 @@ blockquote[epub|type~="z3998:letter"] p[epub|type~="z3998:salutation"] + p{
 
 .calling-card{
 	text-align: center;
+	border: 1px solid;
+	margin: 1em auto;
+	padding: 1em;
+	max-width: 20em;
 }
 
-.calling-card > *{
+.calling-card p{
+	text-indent: 0;
+}
+
+.calling-card b{
+	display: block;
 	margin-bottom: 1em;
+}
+
+.calling-card [epub|type~="z3998:poem"]{
+	text-align: left;
+}
+
+.calling-card [epub|type~="z3998:poem"] + p{
 	margin-top: 1em;
 }
 
-.calling-card footer p{
-	margin-bottom: .25em;
-	margin-top: .25em;
+[epub|type~="z3998:song"] p{
+	text-align: left;
 	text-indent: 0;
 }
 
-.receipt footer[epub|type~="z3998:valediction"]{
-	text-align: right;
-}
-
-[epub|type~="z3998:song"]{
-	font-style: italic;
-	margin: 1em auto;
-	text-indent: 0;
-	width: max-content;
-}
-
-.i1{
-	padding-left: 2em;
+[epub|type~="z3998:song"] p > span{
+	display: block;
 	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:song"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
 }
 
 [epub|type~="z3998:hymn"]{
@@ -113,19 +127,4 @@ blockquote[epub|type~="z3998:letter"] p[epub|type~="z3998:salutation"] + p{
 .newspaper-clipping{
 	font-variant: small-caps;
 	text-align: center;
-}
-
-.governers-calling-card{
-	margin: 1em auto;
-	text-align: center;
-	width: max-content;
-}
-
-.governers-calling-card > *{
-	text-indent: 0;
-}
-
-.governers-calling-card p:first-child{
-	margin-bottom: 1em;
-	margin-top: 1em;
 }
