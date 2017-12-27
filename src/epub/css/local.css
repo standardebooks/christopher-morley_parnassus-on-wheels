@@ -65,7 +65,7 @@ blockquote[epub|type~="z3998:letter"] .signature{
 	text-align: right;
 }
 
-blockquote[epub|type~="z3998:letter"] p[epub|type~="z3998:salutation"] + p{
+p[epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
 
