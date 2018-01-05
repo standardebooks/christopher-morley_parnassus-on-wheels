@@ -22,7 +22,8 @@ abbr.name{
 	text-align: center;
 }
 
-.sign p{
+.sign p,
+header > p{
 	text-indent: 0;
 }
 
