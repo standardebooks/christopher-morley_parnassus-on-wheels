@@ -22,6 +22,10 @@ abbr.name{
 	text-align: center;
 }
 
+.sign p{
+	text-indent: 0;
+}
+
 .signature{
 	font-variant: small-caps;
 }
@@ -30,6 +34,16 @@ abbr.name{
 	border-collapse: collapse;
 	margin: 1em auto;
 	text-align: center;
+}
+
+.newspaper-clipping header ~ p::before{
+	content: '';
+	display: block;
+	border: none;
+	border-top: 1px solid;
+	height: 0;
+	margin: 1.5em auto;
+	width: 25%;
 }
 
 [epub|type~="dedication"] p{
@@ -61,8 +75,14 @@ footer{
 	text-align: right;
 }
 
-blockquote[epub|type~="z3998:letter"] .signature{
-	text-align: right;
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:letter"] header + p{
+	margin-top: 1em;
 }
 
 p[epub|type~="z3998:salutation"] + p{
