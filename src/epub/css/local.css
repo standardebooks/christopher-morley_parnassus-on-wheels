@@ -29,7 +29,7 @@ header > p{
 }
 
 .newspaper-clipping header ~ p::before{
-	content: '';
+	content: "";
 	display: block;
 	border: none;
 	border-top: 1px solid;
