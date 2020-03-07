@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="dedication.xhtml">
+		<ignore>
+			<code>t-011</code>
+			<reason>Matched text is not dialog but an inscription in the dedication.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
