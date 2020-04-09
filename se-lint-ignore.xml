@@ -6,4 +6,10 @@
 			<reason>Matched text is not dialog but an inscription in the dedication.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-13.xhtml">
+		<ignore>
+			<code>s-006</code>
+			<reason>The hymn is not in traditional line-based format.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
