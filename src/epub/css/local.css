@@ -28,6 +28,10 @@ table{
 	text-align: center;
 }
 
+blockquote blockquote{
+	margin: 0;
+}
+
 .newspaper-clipping header ~ p::before{
 	content: "";
 	display: block;
