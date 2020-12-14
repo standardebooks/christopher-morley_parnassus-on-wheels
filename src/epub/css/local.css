@@ -42,6 +42,10 @@ blockquote blockquote{
 	width: 25%;
 }
 
+.newspaper-clipping p{
+	text-indent: 0;
+}
+
 [epub|type~="dedication"] p{
 	margin: auto;
 	margin-top: 3em;
