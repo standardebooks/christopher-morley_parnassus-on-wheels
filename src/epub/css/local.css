@@ -70,7 +70,7 @@ footer{
 
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -100,7 +100,7 @@ p[epub|type~="z3998:salutation"] + p{
 }
 
 .calling-card [epub|type~="z3998:poem"]{
-	text-align: left;
+	text-align: initial;
 }
 
 .calling-card [epub|type~="z3998:poem"] + p{
@@ -108,7 +108,7 @@ p[epub|type~="z3998:salutation"] + p{
 }
 
 [epub|type~="z3998:song"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
