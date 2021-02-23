@@ -114,8 +114,8 @@ p[epub|type~="z3998:salutation"] + p{
 
 [epub|type~="z3998:song"] p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:song"] p > span + br{
@@ -123,8 +123,8 @@ p[epub|type~="z3998:salutation"] + p{
 }
 
 p span.i1{
-	text-indent: -1em;
 	padding-left: 2em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:hymn"]{
