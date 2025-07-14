@@ -28,6 +28,10 @@ table{
 	text-align: center;
 }
 
+table tr:first-child td{
+	font-style: italic;
+}
+
 blockquote blockquote{
 	margin: 0;
 }
